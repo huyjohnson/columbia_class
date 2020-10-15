@@ -8,7 +8,7 @@ def question_1(name: str) -> str:
     Returns:
     "Hello my name is" plus the * name string.
     """
-    return "Hello my name is" + name
+    return "Hello my name is " + name
 
 def question_2(name: str) -> str:
     """
@@ -20,7 +20,7 @@ def question_2(name: str) -> str:
     Returns:
     "My first name is" plus the *name string capitalized.
     """
-    return "Hello my name is" + name.capitalize()
+    return "Hello my name is " + name.capitalize()
 
 def question_3(name: str) -> str:
     """
@@ -32,7 +32,7 @@ def question_3(name: str) -> str:
     Returns:
     "My first name is" plus the *name string.
     """
-    return "My first name is" + name
+    return "My first name is " + name
 
 def question_4(name: str) -> str:
     """
@@ -44,7 +44,7 @@ def question_4(name: str) -> str:
     Returns:
     "My first name is" plus the *name string capitalized.
     """
-    return "My first name is" + name.capitalize()
+    return "My first name is " + name.capitalize()
 
 def question_5(first_name: str, last_name: str) -> str:
     """
@@ -57,7 +57,7 @@ def question_5(first_name: str, last_name: str) -> str:
     Returns:
     "My full name is" + first_name + last_name.
     """
-    return "My full name is" + first_name + last_name
+    return "My full name is " + first_name + last_name
 
 def question_6(first_name: str, last_name: str) -> str:
     """
@@ -70,7 +70,7 @@ def question_6(first_name: str, last_name: str) -> str:
     Returns:
     "My full name is" plus capitalization of first_name and last_name
     """
-    return "My full name is" + first_name.capitalize() + last_name.capitalize()
+    return "My full name is " + first_name.capitalize() + last_name.capitalize()
 
 def question_7(lower_string: str) -> str:
     """
